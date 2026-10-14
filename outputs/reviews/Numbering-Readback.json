@@ -1,0 +1,36 @@
+{
+  "checkedDate": "2026-10-14",
+  "projectId": "c89183e8-feea-4819-9d4f-4432b3e4e282",
+  "currentThread": {
+    "id": "01a13898-5b8a-7571-99c0-7e422a7dead6",
+    "title": "002 Engineer BGM Humanize It skill creation…",
+    "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT"
+  },
+  "relevantVisibleThreads": [
+    {
+      "id": "01a13898-5b8a-7571-99c0-7e422a7dead6",
+      "title": "002 Engineer BGM Humanize It skill creation…",
+      "projectId": "c89183e8-feea-4819-9d4f-4432b3e4e282",
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT"
+    },
+    {
+      "id": "01a1385e-8081-7b02-a740-4f362b3fa443",
+      "title": "001 Review video and draft prompt",
+      "projectId": "local-2f688253a6b808b7efbd110f6eaea247",
+      "cwd": "/Users/damian/Sites/localhost/expressglass.com.au"
+    }
+  ],
+  "unavailableHosts": [],
+  "unavailableSources": [],
+  "limits": {
+    "liveListLimit": 50,
+    "archivedFirstPageLimit": 50,
+    "archivedHasMore": true,
+    "archivedMatchingThreadsOnCheckedPage": 0,
+    "ledgerOwner": "parent chat 001",
+    "ledgerMutatedByThisChat": false,
+    "allocationPerformed": false,
+    "titleChangedByThisChat": false
+  },
+  "finding": "002 prefix is valid and unique in the checked visible project set. App readback returns the title ending in an ellipsis. Ledger preserves the complete reserved title. 001 remains reserved with its project move pending; no content from its old project was read."
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "projectId": "c89183e8-feea-4819-9d4f-4432b3e4e282",
+  "projectRoot": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT",
+  "sequenceStart": 1,
+  "lastReserved": 2,
+  "updatedAt": "2026-10-14",
+  "allocations": [
+    {
+      "number": "001",
+      "threadId": "01a1385e-8081-7b02-a740-4f362b3fa443",
+      "title": "001 Review video and draft prompt",
+      "status": "renamed-move-pending",
+      "note": "Automated move returned confirmation_required because Express Glass source folders are outside the destination project. The app requires the user to move this chat in the sidebar."
+    },
+    {
+      "number": "002",
+      "threadId": "01a13898-5b8a-7571-99c0-7e422a7dead6",
+      "title": "002 Engineer BGM Humanize It skill creation prompt",
+      "status": "created"
+    }
+  ]
+}
