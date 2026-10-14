@@ -1,0 +1,19 @@
+{
+  "candidate_source_stage_installed_equal": true,
+  "runtime_files": 5,
+  "protected_packages_unchanged": true,
+  "protected_files": 11,
+  "validator_passed": true,
+  "structural_checks": "structural-checks-v1.json",
+  "behaviour_cases": 21,
+  "independent_adversarial_review_complete": true,
+  "independent_saved_output_assessments_complete": true,
+  "claude_initial_and_focused_reviews_authoritative": true,
+  "enabled_user_scope_discovery_verified": true,
+  "exact_display_metadata_verified": true,
+  "worker_catalogue_both_skills_present": true,
+  "catalogue_led_review_and_partner_edit_executed": true,
+  "automatic_dispatcher_selection_verified": false,
+  "rendered_picker_UI_verified": false,
+  "all_current_top_level_chat_catalogues_verified": false
+}

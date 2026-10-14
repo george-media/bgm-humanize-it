@@ -1,0 +1,4 @@
+interface:
+  display_name: "BGM AI Check"
+  short_description: "Evidence-led critique without authorship guesses"
+  default_prompt: "Use $bgm-ai-check to review this text for formulaic writing, clarity and audience fit, preserving meaning and voice."

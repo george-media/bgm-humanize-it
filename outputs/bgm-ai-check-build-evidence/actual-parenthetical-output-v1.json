@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-14T06:03:37.702046+00:00",
+  "worker_task": "bgm_ai_check_behaviour",
+  "isolation_directory": "/tmp/bgm-ai-check-tests-parenthetical-12ej71bf",
+  "method": "One new raw task executed independently with unchanged path-supplied candidate and contextual review guidance. No reviews or expected outcomes read; no grading.",
+  "version_hashes_sha256": {
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+  },
+  "physical_reads": [
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+      "read_scope": "entire file",
+      "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+    },
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md",
+      "read_scope": "entire file",
+      "sha256": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+    }
+  ],
+  "records": [
+    {
+      "id": "P1",
+      "request": "Use BGM AI Check to review this internal update for a team needing approval status and next action. Review only: 'The review is complete. The release remains blocked until Priya approves the test results. Priya will review them on Friday. We are balancing review (checking, but still reviewing) and approval (authorising, but still approving). Our workflow offers completion (finished, but complete) and progress (advancing, but moving forward).'",
+      "actual_output": "The approval blocker and next action are useful: keep “The release remains blocked until Priya approves the test results” and her scheduled review on Friday. Friday is a review date, not a promised approval or release date.\n\n- “The review is complete” beside “Priya will review them on Friday” leaves the review stages ambiguous. Clarify which review is complete if these are separate stages; do not assume they contradict each other.\n- “Checking, but still reviewing” and “finished, but complete” imply contrasts between near-equivalent terms. Together with the other parenthetical definitions, they add no approval status or next action and make a straightforward update harder to scan. Remove the last two sentences rather than replace them with more abstract workflow commentary.",
+      "scope_decision": "Review only for internal approval status and next action; preserve approval condition and scheduled Friday review without implying guaranteed approval or release. Distinguish possible review-stage ambiguity from a demonstrated contradiction. Assess parenthetical repetition by its effect on the team update, without rewriting.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md",
+          "sha256": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; no host discovery or exclusive-loading evidence"
+      },
+      "external_actions": []
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT",
+      "skillsTotal": 45,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 33,
+        "/Users/damian/.codex/skills | user": 8
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-ai-check",
+          "path": "/Users/damian/.codex/skills/bgm-ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM AI Check",
+            "shortDescription": "Evidence-led critique without authorship guesses",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-ai-check to review this text for formulaic writing, clarity and audience fit, preserving meaning and voice."
+          }
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/bgm-humanize-it",
+      "skillsTotal": 45,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 33,
+        "/Users/damian/.codex/skills | user": 8
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-ai-check",
+          "path": "/Users/damian/.codex/skills/bgm-ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM AI Check",
+            "shortDescription": "Evidence-led critique without authorship guesses",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-ai-check to review this text for formulaic writing, clarity and audience fit, preserving meaning and voice."
+          }
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "started": "2026-10-14T06:04:29.348Z",
+  "finished": "2026-10-14T06:04:29.881Z",
+  "codex": "/Users/damian/.local/bin/codex",
+  "transport": "isolated stdio process",
+  "forceReload": true,
+  "perCwdExtraUserRoots": "not supplied",
+  "codexHome": null,
+  "stderrBytes": 10602
+}

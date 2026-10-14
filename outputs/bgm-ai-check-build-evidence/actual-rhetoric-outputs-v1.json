@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-14T05:59:29.293373+00:00",
+  "worker_task": "bgm_ai_check_behaviour",
+  "isolation_directory": "/tmp/bgm-ai-check-tests-rhetoric-hdqx1bqs",
+  "method": "Two new raw tasks executed independently using the unchanged path-supplied candidate and contextual review guidance. No Claude or other review conclusions, audits or rubrics were read. No assessment labels were assigned.",
+  "version_hashes_sha256": {
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+  },
+  "physical_reads": [
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+      "read_scope": "entire file",
+      "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+    },
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md",
+      "read_scope": "entire file",
+      "sha256": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+    }
+  ],
+  "records": [
+    {
+      "id": "D1",
+      "request": "Review this internal release update for engineers who know the system and need blocker status and the next action. Review only, concise findings with quoted evidence: 'We deployed build 12 at 10 am. Cache warm-up failed, so the release was rolled back. The release remains blocked until the cache fix is retested. The code is one thing. Making the code work is another. Debugging is the work, and the work is debugging. Laid out that way, the failed warm-up reads like a lesson about how lessons are learned. Being specific about being wrong is more useful than being vague about being right. That is the real work.'",
+      "actual_output": "The first three sentences give the engineers what they need: the failed warm-up, rollback and blocker. Keep “The release remains blocked until the cache fix is retested”, which identifies the next action.\n\nThe remaining reflection adds length without operational information. “Debugging is the work, and the work is debugging” circles back on itself, while “a lesson about how lessons are learned” and “That is the real work” leave the reader with abstractions instead of the retest. Remove this closing reflection from the release update; retain any substantive technical explanation only if it helps resolve the blocker.",
+      "scope_decision": "Review only for known-system engineers; keep supplied deployment, failure, rollback, blocker and retest; assess rhetorical reflection by its effect on operational usefulness without inventing owners or deadlines.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md",
+          "sha256": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; this run does not establish discovery, host invocation or exclusive loading"
+      },
+      "external_actions": []
+    },
+    {
+      "id": "D2",
+      "request": "Review this recommendation for a client choosing a delivery method. Review only, keep the choice conditions accurate: 'Option A costs $600 and takes two days. Option B costs $300 and takes four days. If the deadline is three days away, choose A; otherwise B may suit a tighter budget. We face a choice between speed (fast, but costly) and economy (cheap, but slower). The fast choice is the speed choice. The economical choice is the budget choice. Seen this way, speed becomes the shape of time, and time becomes the shape of spending. The boilerplate is cheaper than the confusion.'",
+      "actual_output": "The prices and durations make the trade-off clear; retain $600/two days for A, $300/four days for B, and the recommendation of A for a three-day deadline.\n\n- “Otherwise B may suit a tighter budget” leaves the timing condition too broad: other deadlines can also be shorter than B’s four-day turnaround. Make clear that B suits the budget only when four days is acceptable; do not imply A meets every shorter deadline.\n- “The fast choice is the speed choice” and “The economical choice is the budget choice” repeat definitions without helping the client decide. “Speed becomes the shape of time” and “The boilerplate is cheaper than the confusion” add abstraction and an unexplained reference. Remove this repetitive closing material; keep the concrete cost, delivery time and decision conditions.",
+      "scope_decision": "Review only for a client decision; preserve exact costs, durations and the three-day recommendation; assess the broad otherwise condition and rhetorical repetition without rewriting or inventing delivery commitments.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/review-guide.md",
+          "sha256": "f1b153d6a270d9e26050d6e97c30b79e0cfd87b2f0b4ee66704110cc265efbe8"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; this run does not establish discovery, host invocation or exclusive loading"
+      },
+      "external_actions": []
+    }
+  ]
+}

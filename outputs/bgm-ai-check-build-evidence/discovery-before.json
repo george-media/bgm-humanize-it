@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT",
+      "skillsTotal": 50,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 33,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/bgm-humanize-it",
+      "skillsTotal": 50,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 33,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    }
+  ],
+  "started": "2026-10-14T05:51:42.696Z",
+  "finished": "2026-10-14T05:51:43.826Z",
+  "codex": "/Users/damian/.local/bin/codex",
+  "transport": "isolated stdio process",
+  "forceReload": true,
+  "perCwdExtraUserRoots": "not supplied",
+  "codexHome": null,
+  "stderrBytes": 1658
+}

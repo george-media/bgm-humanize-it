@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "interface": {
+      "display_name": "BGM AI Check",
+      "short_description": "Evidence-led critique without authorship guesses",
+      "default_prompt": "Use $bgm-ai-check to review this text for formulaic writing, clarity and audience fit, preserving meaning and voice."
+    }
+  },
+  "default_automatic_invocation": true,
+  "short_description_chars": 48,
+  "relative_links": [
+    {
+      "file": "SKILL.md",
+      "link": "references/review-guide.md"
+    },
+    {
+      "file": "SKILL.md",
+      "link": "references/evidence-and-limits.md"
+    },
+    {
+      "file": "references/evidence-and-limits.md",
+      "link": "../LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/evidence-and-limits.md",
+    "references/review-guide.md"
+  ],
+  "entry_body_words": 820,
+  "no_runtime_scripts_or_dependencies": true
+}

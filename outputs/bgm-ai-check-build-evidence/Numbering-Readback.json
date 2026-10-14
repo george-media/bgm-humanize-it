@@ -1,0 +1,19 @@
+{
+  "source": "supported list_threads, live ledger read",
+  "visibleTitles": [
+    {
+      "id": "01a138cf-cd8f-7020-a040-a0eaf89511d0",
+      "title": "003 Build and install BGM Humanize It"
+    },
+    {
+      "id": "01a13898-5b8a-7571-99c0-7e422a7dead6",
+      "title": "002 Engineer BGM Humanize It skill creation…"
+    }
+  ],
+  "ownTitle": "003 Build and install BGM Humanize It",
+  "uniqueVisiblePrefixes": true,
+  "reserved001MovePending": true,
+  "listingLimit": 50,
+  "noHistoricalCompletenessClaim": true,
+  "ledgerMutated": false
+}

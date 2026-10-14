@@ -1,0 +1,23 @@
+{
+  "companion_version": "0.1.18",
+  "companion_path": "/Users/damian/.codex/plugins/cache/claude-plugin-codex/claude-code-advisor/0.1.18/scripts/claude-companion.mjs",
+  "route": "advise --background",
+  "effort": "xhigh",
+  "model_override": null,
+  "tools": "Read,Glob,Grep",
+  "strict_empty_mcp": true,
+  "no_chrome": true,
+  "write": false,
+  "web": false,
+  "mcp": false,
+  "job_id": "advise-mv7p3iml-y37ajm",
+  "canonical_session": "a932f13a-06e1-4968-b49c-e83e95068ac1",
+  "status": "completed",
+  "result_source": "provider-json",
+  "cleanup": "verified",
+  "focused_job_id": "advise-mv7pamtu-nnlmbf",
+  "focused_canonical_session": "5d014347-cb85-4e1d-a7b1-7a2790995e28",
+  "focused_result_source": "provider-json",
+  "focused_state": "completed",
+  "focused_cleanup": "verified"
+}

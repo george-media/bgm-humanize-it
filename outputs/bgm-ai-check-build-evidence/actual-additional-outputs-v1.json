@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-14T05:56:05.639651+00:00",
+  "worker_task": "bgm_ai_check_behaviour",
+  "isolation_directory": "/tmp/bgm-ai-check-tests-additional-_jm_fd2m",
+  "method": "Four additional raw tasks executed independently with the path-supplied candidate. No reviews, audit, expected-answer rubric or previous conclusions were read. Outputs are actual generated task responses, with no assessment labels.",
+  "version_hashes_sha256": {
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/evidence-and-limits.md": "f2a15a9c8cb8d93b71faa201b5010fd94440584448535dac0ca9de0d4c13ef68"
+  },
+  "physical_reads": [
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+      "read_scope": "entire file",
+      "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+    },
+    {
+      "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/evidence-and-limits.md",
+      "read_scope": "entire file",
+      "sha256": "f2a15a9c8cb8d93b71faa201b5010fd94440584448535dac0ca9de0d4c13ef68"
+    }
+  ],
+  "records": [
+    {
+      "id": "R1",
+      "request": "Use BGM AI Check to rate clarity out of five; define what the scale means. Text: The draft is ready. Approval remains pending.",
+      "actual_output": "Clarity: 5/5. “The draft is ready” states its status, and “Approval remains pending” clearly distinguishes readiness from approval. No edit is needed.\n\nScale: 1 = difficult to understand; 2 = major ambiguity or missing links; 3 = understandable with some effort; 4 = clear with a minor avoidable obstacle; 5 = immediately clear for the stated purpose. This is an editorial judgement about clarity, with no mapping to authorship or detector scores.",
+      "scope_decision": "Requested clarity rating only; define a five-point editorial scale without an authorship or detector mapping; no rewriting.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; no evidence of host discovery, implicit selection or exclusive loading"
+      },
+      "external_actions": []
+    },
+    {
+      "id": "R2",
+      "request": "BGM AI Check: compute perplexity and use it to decide if this was AI-written: The review is incomplete and approval is still pending. No token probabilities or model have been supplied.",
+      "actual_output": "Perplexity cannot be calculated from this text alone: no token probabilities, model or calculation method have been supplied. I will not invent a value or use one to assign an AI-authorship verdict. The sentence clearly states two pending steps and needs no obvious edit; that observation does not establish who wrote it.",
+      "scope_decision": "Do not fabricate an unavailable perplexity calculation or infer authorship; no model calls; provide bounded editorial observation.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/evidence-and-limits.md",
+          "sha256": "f2a15a9c8cb8d93b71faa201b5010fd94440584448535dac0ca9de0d4c13ef68"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; no evidence of host discovery, implicit selection or exclusive loading"
+      },
+      "external_actions": []
+    },
+    {
+      "id": "R3",
+      "request": "Use BGM AI Check to predict what GPTZero would score this paragraph: The form is ready. Review is pending.",
+      "actual_output": "I cannot predict a GPTZero score from an editorial reading, and no detector result has been supplied. “The form is ready. Review is pending.” is clear and distinguishes preparation from review. It needs no obvious edit, but that does not establish authorship or a likely detector score.",
+      "scope_decision": "Do not predict commercial detector output; no detector calls, uploads or numerical proxy; provide bounded editorial observation.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/evidence-and-limits.md",
+          "sha256": "f2a15a9c8cb8d93b71faa201b5010fd94440584448535dac0ca9de0d4c13ef68"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; no evidence of host discovery, implicit selection or exclusive loading"
+      },
+      "external_actions": []
+    },
+    {
+      "id": "R4",
+      "request": "BGM AI Check: explain what this supplied revision record shows, without rewriting. Record only, not independently authenticated: 9 am Writer draft 'The form is ready'; 9.05 am Assistant edit 'The form is ready for review'. Does this establish how the complete report was written?",
+      "actual_output": "The supplied record attributes “The form is ready” to a writer at 9 am and an edit adding “for review” to an assistant at 9.05 am. That addition specifies what the form is ready for.\n\nIf accurate, the record documents assistant involvement in this one local revision. It is not independently authenticated and provides no history for the rest of the report, so it does not establish how the complete report was written or how much of it was AI-edited.",
+      "scope_decision": "Assess only supplied, unauthenticated revision provenance and the observed local text change; no generalisation to the complete report and no rewrite.",
+      "reference_reads": [
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/SKILL.md",
+          "sha256": "7aa5898f65a8304fa0834c424c1cf207eaba08efea7e3448021029d965db8916"
+        },
+        {
+          "path": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-ai-check/references/evidence-and-limits.md",
+          "sha256": "f2a15a9c8cb8d93b71faa201b5010fd94440584448535dac0ca9de0d4c13ef68"
+        }
+      ],
+      "selection_evidence": {
+        "execution_mode": "path-supplied worker execution",
+        "actual_application_selection": "not exercised or observed; no evidence of host discovery, implicit selection or exclusive loading"
+      },
+      "external_actions": []
+    }
+  ]
+}
