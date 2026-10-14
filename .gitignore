@@ -1,1 +1,4 @@
 .DS_Store
+
+# Local user settings and project inventories are evidence, not distribution.
+/outputs/skill-activation-evidence/
