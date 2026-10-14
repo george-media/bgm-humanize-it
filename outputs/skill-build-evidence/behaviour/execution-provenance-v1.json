@@ -1,0 +1,40 @@
+{
+  "execution_type": "worker execution using a path-supplied candidate; no automatic desktop discovery was tested",
+  "candidate_entrypoint": "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-humanize-it/SKILL.md",
+  "hash_capture_timing": "after output generation, not at initial read time",
+  "candidate_read_version_note": "Read output contained slang. Original read version reconstructed after execution from the current file by reversing the sole observed qualification change artificial slang to slang. Hash was not captured at original read time. Subsequently confirmed byte-for-byte against the frozen v1 snapshot supplied by the coordinator.",
+  "sha256_of_candidate_content_read": {
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-humanize-it/SKILL.md": "8665c624994aa168739e73c29f440f313a549c5e92a5e2c6ca0c7c48f43274cd",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-humanize-it/references/editing-and-voice.md": "777d30436777c38c3111656db00e004e598f3331a4064219b753774585c20a74",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-humanize-it/references/genres.md": "5a9739f741087b5ce391c41664527eb1bdea630755d5b4a5d0a9bf1dedb03234",
+    "/Users/damian/Sites/localhost/bgm-humanize-it/skill/bgm-humanize-it/references/research.md": "a9fa4609d1db2f75936144803073800874e07b8dc65687087abf6e176302df84"
+  },
+  "current_entrypoint_sha256": "127065577ae57ab8e0162fc239ae28a02b351a656e63756ef1c0e9c5bc6d0b96",
+  "references_note": "Reference hashes captured after execution. Parent reports these reference files unchanged. All three were read as candidate conditional references; no creation prompt, audit or reviewer conclusions were read.",
+  "task_source": "/Users/damian/Sites/localhost/bgm-humanize-it/outputs/skill-build-evidence/behaviour/raw-tasks.json",
+  "task_source_sha256": "079ba76a6c799f1e6d57222a65cdfd1cb062e793d98961b92042f968cf8aa3c5",
+  "task_count": 28,
+  "outputs_unchanged_after_candidate_change": true,
+  "frozen_v1_comparison": {
+    "SKILL.md": {
+      "snapshot_path": "/Users/damian/Sites/localhost/bgm-humanize-it/outputs/skill-build-evidence/candidates/v1/SKILL.md",
+      "sha256": "8665c624994aa168739e73c29f440f313a549c5e92a5e2c6ca0c7c48f43274cd",
+      "matches_recorded_read_content": true
+    },
+    "references/editing-and-voice.md": {
+      "snapshot_path": "/Users/damian/Sites/localhost/bgm-humanize-it/outputs/skill-build-evidence/candidates/v1/references/editing-and-voice.md",
+      "sha256": "777d30436777c38c3111656db00e004e598f3331a4064219b753774585c20a74",
+      "matches_recorded_read_content": true
+    },
+    "references/genres.md": {
+      "snapshot_path": "/Users/damian/Sites/localhost/bgm-humanize-it/outputs/skill-build-evidence/candidates/v1/references/genres.md",
+      "sha256": "5a9739f741087b5ce391c41664527eb1bdea630755d5b4a5d0a9bf1dedb03234",
+      "matches_recorded_read_content": true
+    },
+    "references/research.md": {
+      "snapshot_path": "/Users/damian/Sites/localhost/bgm-humanize-it/outputs/skill-build-evidence/candidates/v1/references/research.md",
+      "sha256": "a9fa4609d1db2f75936144803073800874e07b8dc65687087abf6e176302df84",
+      "matches_recorded_read_content": true
+    }
+  }
+}

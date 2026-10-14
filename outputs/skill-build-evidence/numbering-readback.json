@@ -1,0 +1,25 @@
+{
+  "source": "supported list_threads and read_thread; ledger reread",
+  "threadId": "01a138cf-cd8f-7020-a040-a0eaf89511d0",
+  "exactReadThreadTitle": "003 Build and install BGM Humanize It",
+  "visibleProjectTitles": [
+    {
+      "id": "01a138cf-cd8f-7020-a040-a0eaf89511d0",
+      "title": "003 Build and install BGM Humanize It",
+      "projectId": "c89183e8-feea-4819-9d4f-4432b3e4e282",
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT"
+    },
+    {
+      "id": "01a13898-5b8a-7571-99c0-7e422a7dead6",
+      "title": "002 Engineer BGM Humanize It skill creation…",
+      "projectId": "c89183e8-feea-4819-9d4f-4432b3e4e282",
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT"
+    }
+  ],
+  "ledger003Status": "created",
+  "reserved001": "001 Review video and draft prompt; move pending",
+  "visibleCollision": false,
+  "listingLimit": 50,
+  "historicalCompletenessClaimed": false,
+  "ledgerMutatedByThisChat": false
+}

@@ -1,0 +1,16 @@
+{
+  "checked_cwds": 41,
+  "passed_cwds": 41,
+  "issues": [],
+  "configured_local_projects_excluding_Express_Glass": 41,
+  "unique_project_cwds": 39,
+  "also_checked": [
+    "repository",
+    "isolated projectless cwd"
+  ],
+  "exact_display_metadata": true,
+  "enabled_user_scope": true,
+  "desktop_catalogue_refresh_proved": false,
+  "cloud_ChatGPT_availability_proved": false,
+  "transport": "isolated supported CLI app-server skills/list forceReload true; no extra roots/settings changes"
+}

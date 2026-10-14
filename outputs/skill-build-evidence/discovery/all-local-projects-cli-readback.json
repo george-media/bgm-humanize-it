@@ -1,0 +1,3006 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM HUMANIZE IT",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BGM MACOS FINDERXTENDED",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/akayshaenergy.com",
+      "skillsTotal": 50,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 33,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/ART",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/BINANCE",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/CLAUDE CODE MCP FOR CODEX",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/CNH",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/CNH HOW TO GUIDE",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/dtswa.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/dispatch-platform",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/eacsupports.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/flashskipbins.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/flexicoil.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/GEORGE MEDIA",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/GEORGE MEDIA REBRAND",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/georgemedia.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/GOOGLE SUBY SEARCH GROWTH",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/HOME",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/horwoodbagshaw.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/K-LINE AG",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/LEANNE",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA AFS PORTAL INTEGRATION",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA CATALOGUE PRODUCTION",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA RECALL CAMPAIGN",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/makita/makita.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA DGP180ZBK RECAL VIDEOS",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA WEBSITE REDEVELOPMENT",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MAKITA 202610A REDEMPTIONS",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/makita/MyMakita",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MILLER SPRAYERS",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/MILLY ROSE",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/ROBERTSON AND ROBERTSON",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/SCRB",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/screentechnics.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/sustainableparksolutions.com.au",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/TDA EVENTS TENDER",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/TRADING",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Documents/Codex/PROJECTS/WHISKEY",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/damian/Sites/localhost/bgm-humanize-it",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    },
+    {
+      "cwd": "/var/folders/sb/4jknf9vd0qvdcl7rgcrxf83c0000gn/T/bgm-humanize-discovery-qny40nq4",
+      "skillsTotal": 139,
+      "rootStats": {
+        "/Users/damian/.agents/skills | user": 4,
+        "plugin bundles | user": 122,
+        "/Users/damian/.codex/skills | user": 7,
+        "/Users/damian/.codex/skills | system": 6
+      },
+      "errors": [],
+      "selected": [
+        {
+          "name": "ai-check",
+          "path": "/Users/damian/.agents/skills/ai-check/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "bgm-humanize-it",
+          "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "interface": {
+            "displayName": "BGM Humanize It",
+            "shortDescription": "Clear, accurate writing in your own voice",
+            "iconSmall": null,
+            "iconLarge": null,
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+          }
+        },
+        {
+          "name": "humanize",
+          "path": "/Users/damian/.agents/skills/humanize/SKILL.md",
+          "scope": "user",
+          "enabled": true
+        },
+        {
+          "name": "skill-creator",
+          "path": "/Users/damian/.codex/skills/.system/skill-creator/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Creator",
+            "shortDescription": "Create or update a skill",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-creator/assets/skill-creator.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        },
+        {
+          "name": "skill-installer",
+          "path": "/Users/damian/.codex/skills/.system/skill-installer/SKILL.md",
+          "scope": "system",
+          "enabled": true,
+          "interface": {
+            "displayName": "Skill Installer",
+            "shortDescription": "Install curated skills from openai/skills or other repos",
+            "iconSmall": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer-small.svg",
+            "iconLarge": "/Users/damian/.codex/skills/.system/skill-installer/assets/skill-installer.png",
+            "iconSmallUrl": null,
+            "iconLargeUrl": null,
+            "brandColor": null,
+            "defaultPrompt": null
+          }
+        }
+      ]
+    }
+  ],
+  "started": "2026-10-14T05:27:46.696Z",
+  "finished": "2026-10-14T05:27:54.978Z",
+  "codex": "/Users/damian/.local/bin/codex",
+  "transport": "isolated stdio process",
+  "forceReload": true,
+  "perCwdExtraUserRoots": "not supplied",
+  "codexHome": null,
+  "stderrBytes": 15340
+}

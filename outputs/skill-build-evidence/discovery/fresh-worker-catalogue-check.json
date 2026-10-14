@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-10-14T05:28:23.352242+00:00",
+  "context": "Fresh worker session /root/catalogue_probe; worker exempt from top-level numbering",
+  "catalogue_observation": {
+    "source": "Available skills catalogue supplied in this worker session developer instructions, inspected before filesystem access",
+    "machine_name": "bgm-humanize-it",
+    "machine_name_present": true,
+    "catalogue_entry": "bgm-humanize-it: Draft or revise prose for clarity, audience and authorial voice while preserving facts and the requested edit scope. Use for BGM Humanize It requests, natural or less formulaic writing, and sample-led voice editing. Not an authorship detector. Ordinary code, research-only, translation, formatting and typo-only tasks do not need a prose rewrite.",
+    "listed_path": "r0/bgm-humanize-it/SKILL.md",
+    "skill_root_r0": "/Users/damian/.codex/skills",
+    "resolved_listed_path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+    "exact_display_string": "BGM Humanize It",
+    "exact_display_string_present_in_catalogue_description": true,
+    "separate_display_name_field_present": false,
+    "exact_display_name_as_catalogue_label_verified": false,
+    "display_limit": "The catalogue labels the entry bgm-humanize-it and mentions BGM Humanize It in its description. It does not expose a separate display-name field, so exact app display metadata cannot be independently verified from this catalogue."
+  },
+  "requests": [
+    {
+      "type": "explicit_machine_skill_invocation",
+      "invocation": "$bgm-humanize-it",
+      "raw_request": "Lightly edit, finished copy only: We have made a decision to review the draft tomorrow.",
+      "output": "We've decided to review the draft tomorrow.",
+      "selected_skill": "bgm-humanize-it",
+      "execution": "Read and applied the entrypoint at the catalogue-listed path; simplified the nominalisation without changing the planned review or timing.",
+      "finished_copy_only": true
+    },
+    {
+      "type": "unrelated_formatting_request_without_explicit_skill_mention",
+      "raw_request": "Convert CSV to TSV without changing values:\nname,count\nMia,3\nJo,12",
+      "input": "name,count\nMia,3\nJo,12",
+      "output": "name\tcount\nMia\t3\nJo\t12",
+      "selected_skill": null,
+      "execution": "Direct delimiter conversion; the catalogue description and read entrypoint explicitly exclude ordinary formatting from prose rewriting.",
+      "values_preserved": true
+    }
+  ],
+  "references_read": [
+    {
+      "path": "/Users/damian/.codex/skills/bgm-humanize-it/SKILL.md",
+      "kind": "catalogue-listed entrypoint",
+      "frontmatter_name": "bgm-humanize-it",
+      "heading": "BGM Humanize It"
+    }
+  ],
+  "selection_and_availability_limits": [
+    "This is actual fresh-worker catalogue visibility and direct skill application, not verification of an already-open desktop chat catalogue or UI.",
+    "The exact BGM Humanize It heading was observed in the read entrypoint; a distinct catalogue display-name metadata field was not exposed.",
+    "Explicit invocation was supplied by the parent task and followed by this worker. No dispatcher trace or automatic selection telemetry is exposed, so automatic invocation is not proven.",
+    "The unrelated formatting request was completed without explicit skill mention or prose rewriting. One observed case does not prove general routing behaviour or exclusivity against overlapping installed skills.",
+    "No filesystem search was used to infer availability. Only the path already listed in this session catalogue was read.",
+    "No settings changes, extra agents, user-owned chats, external sends, uploads or Express Glass access were performed."
+  ]
+}

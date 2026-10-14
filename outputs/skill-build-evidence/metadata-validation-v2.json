@@ -1,0 +1,16 @@
+{
+  "yaml_parse": true,
+  "exact_display_name": true,
+  "short_description_length": 41,
+  "short_description_in_25_64": true,
+  "explicit_skill_in_default_prompt": true,
+  "default_automatic_invocation": true,
+  "no_tool_dependencies": true,
+  "metadata": {
+    "interface": {
+      "display_name": "BGM Humanize It",
+      "short_description": "Clear, accurate writing in your own voice",
+      "default_prompt": "Use $bgm-humanize-it to draft or edit this text for its audience while preserving meaning and voice."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "candidate_repository_staged_installed_equal": true,
+  "protected_files_unchanged": 5,
+  "reviewed_prompt_unchanged": true,
+  "validator_staged": "Skill is valid!",
+  "validator_installed": "Skill is valid!",
+  "base_behaviour_outputs": 28,
+  "focused_final_outputs": 3,
+  "separate_informal_voice_output": 1,
+  "fresh_installed_catalogue_outputs": 2,
+  "adversarial_reviews_complete": true,
+  "claude_reviews_authoritative": true,
+  "enabled_user_scope_all_tested_local_cwds": 41,
+  "fresh_worker_catalogue_present": true,
+  "already_open_desktop_UI_refresh_verified": false,
+  "cloud_installation_verified": false,
+  "no_remote_push": true
+}

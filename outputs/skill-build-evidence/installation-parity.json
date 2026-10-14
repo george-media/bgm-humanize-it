@@ -1,0 +1,15 @@
+{
+  "installed_path": "/Users/damian/.codex/skills/bgm-humanize-it",
+  "files": {
+    "LICENSE": "0261d6664eea6c1cd1203686249c3fc9b9f4cef47b6e1706503a5c5525d522ad",
+    "SKILL.md": "5bdeb1232df30f8d088d89d1eeb25bdc4e3ad4e08cb109985fa6f6768ecf8619",
+    "agents/openai.yaml": "e857323dad088a394caa45c9d34069f9598e8f2b2371318a16d4e588a385141f",
+    "references/editing-and-voice.md": "8b2586a9fe4f204aef74464833f47becd69e4559580eddc18af376bf277be3d5",
+    "references/genres.md": "5a9739f741087b5ce391c41664527eb1bdea630755d5b4a5d0a9bf1dedb03234",
+    "references/research.md": "a9fa4609d1db2f75936144803073800874e07b8dc65687087abf6e176302df84"
+  },
+  "repository_stage_installed_equal": true,
+  "existing_protected_packages_equal": true,
+  "protected_files": 5,
+  "destination_was_absent": true
+}
