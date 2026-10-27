@@ -1,43 +1,50 @@
 # Installation and troubleshooting
 
-These instructions install the two standalone skill packages into local Codex. They do not change any other skills or publish a plugin.
+These instructions install the three standalone skill packages into local Codex. You can install only the skill you need. They do not change any other skills or publish a plugin.
 
 The [official Codex skills documentation](https://developers.openai.com/codex/skills) describes local discovery, invocation and configuration. Locations and UI can change between hosts; check that documentation if your host differs from the build environment.
 
 ## Install through Codex
 
-Ask the built-in installer to install the repository's two subfolders:
+For the Vietnamese-to-English client reply workflow, ask the built-in installer:
 
 ```text
-$skill-installer Install skill/bgm-humanize-it and skill/bgm-ai-check
-from the GitHub repository george-media/bgm-humanize-it.
+$skill-installer Install skill/bgm-client-reply from
+the GitHub repository george-media/bgm-humanize-it for user-wide use.
+```
+
+Client Reply is self-contained. BGM Humanize It is optional. To install all three packages:
+
+```text
+$skill-installer Install skill/bgm-humanize-it, skill/bgm-ai-check
+and skill/bgm-client-reply from the GitHub repository george-media/bgm-humanize-it.
 ```
 
 The installer chooses its supported user location. Access to the repository is required; a private repository requires an authorised GitHub account. Do not put credentials in a prompt.
 
 ## Inspect and install manually
 
-Clone the repository using your existing GitHub authentication, then inspect the two `SKILL.md` files and their references:
+Clone the repository using your existing GitHub authentication, then inspect the chosen `SKILL.md` files and any references:
 
 ```bash
 git clone https://github.com/george-media/bgm-humanize-it.git
 cd bgm-humanize-it
 ```
 
-Run the following in Bash or another POSIX shell from the cloned repository. It uses `~/.agents/skills`, the user-wide location documented by OpenAI, and refuses to overwrite either existing destination:
+Run the following in Bash or another POSIX shell from the cloned repository. It installs all three packages into `~/.agents/skills`, the user-wide location documented by OpenAI, and refuses to overwrite any existing destination. To install only Client Reply, use `bgm-client-reply` alone in both loops:
 
 ```bash
 (
   set -eu
   bgm_skills_dir="${BGM_SKILLS_DIR:-$HOME/.agents/skills}"
-  for bgm_skill in bgm-humanize-it bgm-ai-check; do
+  for bgm_skill in bgm-humanize-it bgm-ai-check bgm-client-reply; do
     if [ -e "$bgm_skills_dir/$bgm_skill" ] || [ -L "$bgm_skills_dir/$bgm_skill" ]; then
       printf 'Already installed: %s\n' "$bgm_skills_dir/$bgm_skill" >&2
       exit 1
     fi
   done
   mkdir -p "$bgm_skills_dir"
-  for bgm_skill in bgm-humanize-it bgm-ai-check; do
+  for bgm_skill in bgm-humanize-it bgm-ai-check bgm-client-reply; do
     cp -R "skill/$bgm_skill" "$bgm_skills_dir/$bgm_skill"
   done
 )
@@ -55,9 +62,10 @@ The build environment also verified user-scope discovery under `~/.codex/skills`
 
 ## Verify availability
 
-1. Find **BGM Humanize It** and **BGM AI Check** in your host's skill selector, or ask Codex which installed skills are available.
-2. Explicitly invoke `$bgm-ai-check` on a short synthetic passage and request review only. Check that it gives editorial observations without an authorship verdict or full rewrite.
-3. Invoke `$bgm-humanize-it` on the same passage and request a light edit. Check that facts and qualifications survive.
+1. Run `/skills` in Codex CLI, or use your host's skill selector, and find the skills you installed.
+2. For Client Reply, invoke `$bgm-client-reply` with synthetic Vietnamese notes. Check that it returns an English reply and separate Vietnamese explanation, preserves uncertainty and adds no commitments. Try an essential ambiguity and check that it asks questions in Vietnamese before presenting a finished reply.
+3. If installed, invoke `$bgm-ai-check` on a short synthetic passage and request review only. Check that it gives editorial observations without an authorship verdict or full rewrite.
+4. If installed, invoke `$bgm-humanize-it` on the same passage and request a light edit. Check that facts and qualifications survive.
 
 File presence proves installation, not that an already-open chat has refreshed. OpenAI documents automatic detection of skill changes and a restart if changes do not appear. Restart Codex after changing skill enable/disable settings. Wait for active work to finish first.
 
@@ -85,11 +93,11 @@ Disabling legacy `humanize` and `ai-check` is optional. Installing the BGM packa
 
 From the clone, use `git pull --ff-only` after handling any local changes. Review [the changelog](../CHANGELOG.md) and the diff before updating an installed copy.
 
-Back up your installed BGM folders outside every scanned skills directory, including any local customisations. Move the old installed folders out of the discovery root, then rerun the installation block to copy the new source. Keep both packages from the same repository commit when using their paired workflow. Do not merge a new folder into an old one blindly; removed reference files could otherwise remain installed.
+Back up your installed BGM folders outside every scanned skills directory, including any local customisations. Move the old installed folders out of the discovery root, then rerun the installation block for the packages you use. Keep packages from the same repository commit when using them together. Do not merge a new folder into an old one blindly; removed reference files could otherwise remain installed.
 
 ## Remove
 
-Disable the relevant skill first if you want to preserve its files. For removal, move only the installed `bgm-humanize-it` or `bgm-ai-check` folder outside the scanned skill root. Remove any stale configuration entry for that moved path and refresh Codex. Keep a backup if you have customisations. Do not move or remove unrelated skill folders.
+Disable the relevant skill first if you want to preserve its files. For removal, move only the relevant installed `bgm-humanize-it`, `bgm-ai-check` or `bgm-client-reply` folder outside the scanned skill root. Remove any stale configuration entry for that moved path and refresh Codex. Keep a backup if you have customisations. Do not move or remove unrelated skill folders.
 
 ## Troubleshooting
 
@@ -98,6 +106,7 @@ Disable the relevant skill first if you want to preserve its files. For removal,
 | Skill is missing | Correct discovery root, `SKILL.md` in the immediate skill folder, repository access and enabled settings; refresh Codex |
 | Two copies appear | Duplicate installations with the same machine name in user and repository roots |
 | Review becomes a rewrite | State review-only scope and explicitly select BGM AI Check; inspect conflicting instructions |
+| Vietnamese notes do not trigger client drafting | Invoke `$bgm-client-reply` explicitly and include the client context and intended reply; ordinary literal translation requests retain their requested scope |
 | Old skills still appear | Saved enable/disable settings and whether the current chat has reloaded its catalogue |
 | References fail to load | Copy the whole package, including `references/`, `agents/` and `LICENSE` |
 

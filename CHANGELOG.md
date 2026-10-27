@@ -2,6 +2,12 @@
 
 Changes are grouped by date. There is no numbered release series yet; pin a repository commit when you need a reproducible installation.
 
+## 2026-10-28
+
+- Added BGM Client Reply for Vietnamese or mixed Vietnamese/English staff notes, professional Australian English client replies and a separate Vietnamese explanation of the final English copy.
+- Added Vietnamese clarification questions for essential ambiguities and destination-specific Teamwork Desk formatting. BGM Client Reply works independently, with optional BGM Humanize It guidance when available.
+- Documented installation and invocation through `$bgm-client-reply`. Existing Humanize It and AI Check packages are unchanged by this addition.
+
 ## 2026-10-14
 
 - Added BGM Humanize It for scoped drafting and editing with factual and voice fidelity.
