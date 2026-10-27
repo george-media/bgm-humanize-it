@@ -1,0 +1,4 @@
+interface:
+  display_name: "BGM Client Reply"
+  short_description: "Vietnamese notes to clear English client replies"
+  default_prompt: "Use $bgm-client-reply to turn my notes into an Australian English client reply with a separate Vietnamese explanation."

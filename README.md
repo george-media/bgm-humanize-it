@@ -1,10 +1,10 @@
-# BGM Humanize It and BGM AI Check
+# BGM writing skills
 
-Two complementary Codex skills from By George Media for clear writing and evidence-led editorial review.
+Three complementary Codex skills from By George Media for clear writing, bilingual client replies and evidence-led editorial review.
 
-**BGM Humanize It** drafts and edits prose while preserving facts, meaning and authorial voice. **BGM AI Check** reviews prose for generic, formulaic or audience-mismatched writing, using quoted evidence and proportionate suggestions.
+**BGM Humanize It** drafts and edits prose while preserving facts, meaning and authorial voice. **BGM AI Check** reviews prose for generic, formulaic or audience-mismatched writing, using quoted evidence and proportionate suggestions. **BGM Client Reply** turns Vietnamese or mixed Vietnamese/English notes into professional Australian English client replies, with a separate Vietnamese explanation for the staff member.
 
-Neither skill determines who wrote a passage, estimates an AI-written percentage or promises a detector score.
+None of these skills determines who wrote a passage, estimates an AI-written percentage or promises a detector score.
 
 ## Choose a skill
 
@@ -12,19 +12,22 @@ Neither skill determines who wrote a passage, estimates an AI-written percentage
 | --- | --- | --- |
 | [BGM Humanize It](skill/bgm-humanize-it/SKILL.md) | Drafting from notes, light editing, substantial revision or adapting to supplied voice samples | Finished copy, with essential factual issues handled separately |
 | [BGM AI Check](skill/bgm-ai-check/SKILL.md) | Contextual critique of clarity, specificity, repetition, structure and voice | A concise assessment with exact evidence and minimal suggested action |
+| [BGM Client Reply](skill/bgm-client-reply/SKILL.md) | Vietnamese-to-English client drafting from staff notes and client context | An English client reply and separate Vietnamese explanation, or clarification questions in Vietnamese when essential facts are unclear |
 
-AI Check stays review-only unless you request edits. When you request both review and revision, it can hand the original brief, text and findings to Humanize It. Either skill can be used independently.
+AI Check stays review-only unless you request edits. When you request both review and revision, it can hand the original brief, text and findings to Humanize It. Each skill can be used independently. Client Reply can use Humanize It when available, but does not require it to be installed.
 
 ## Install
 
-You need a Codex host that supports local skills. These are instruction-only packages: no package manager, API key, external detector or runtime scripts are required by either skill. Your usual Codex account and host requirements still apply.
+You need a Codex host that supports local skills. These are instruction-only packages: no package manager, API key, external detector or runtime scripts are required by these skills. Your usual Codex account and host requirements still apply.
 
 With Codex's built-in skill installer, ask:
 
 ```text
-$skill-installer Install both skills from george-media/bgm-humanize-it:
-skill/bgm-humanize-it and skill/bgm-ai-check.
+$skill-installer Install skill/bgm-client-reply from
+the GitHub repository george-media/bgm-humanize-it for user-wide use.
 ```
+
+To install the other skills as well, ask for `skill/bgm-humanize-it` and `skill/bgm-ai-check` from the same repository.
 
 Repository access is required. If you prefer to inspect and copy the files yourself, follow the [installation guide](docs/installation.md). It covers user-wide and repository-only installation, verification, updates, removal and optional legacy-skill settings.
 
@@ -49,7 +52,16 @@ Do not rewrite it or estimate whether it was AI-written.
 [Paste the draft]
 ```
 
-Both packages allow normal automatic selection when their descriptions match the task. Explicit selection does not guarantee that no other instructions or skills apply. See [usage and examples](docs/usage.md) for the paired workflow, voice samples and house style.
+```text
+$bgm-client-reply
+Client: Alex
+Ghi chú: Tôi đã kiểm tra trang web. Biểu mẫu liên hệ vẫn bị lỗi.
+Tôi sẽ báo lại khi có kết quả kiểm tra tiếp theo.
+```
+
+Client Reply preserves the notes' meaning and commitments. Its Vietnamese explanation describes the final English copy; it is an AI-generated review aid, not independent verification of the translation.
+
+All three packages allow normal automatic selection when their descriptions match the task. Explicit selection does not guarantee that no other instructions or skills apply. See [usage and examples](docs/usage.md) for the bilingual and paired workflows, voice samples and house style.
 
 ## Editorial approach
 
@@ -57,7 +69,7 @@ Both packages allow normal automatic selection when their descriptions match the
 - Judge language in context. Em dashes, Oxford commas, formal vocabulary, triads and coherent structure are not automatic defects.
 - Use Australian English and the user's explicit house style. Preserve quotations and literal content.
 - Keep proofreading small. Do not manufacture findings, invent nonfiction experience or add deliberate mistakes to sound human.
-- Keep critique separate from deliverable copy. Neither skill sends or publishes material.
+- Keep critique and Vietnamese review notes separate from deliverable copy. These skills draft material; they do not send or publish it.
 
 Review does not automatically verify every factual claim. Provide relevant sources or request verification where needed.
 
@@ -76,6 +88,7 @@ Review does not automatically verify every factual claim. Provide relevant sourc
 ```text
 skill/bgm-humanize-it/   Installable drafting and editing package
 skill/bgm-ai-check/      Installable editorial review package
+skill/bgm-client-reply/  Installable Vietnamese-to-English client reply package
 docs/                   User documentation
 outputs/                Historical prompts, reviews and build evidence
 sources/                Historical project instruction snapshots
@@ -85,4 +98,4 @@ Install only the chosen folders under `skill/`. Historical evidence contains loc
 
 ## Licence and attribution
 
-MIT licensed. Useful concepts were adapted from the Humanize and AI-Check packages credited to Harshaneel Gokhale. Their complete MIT notices are retained in each skill. See [third-party notices](THIRD_PARTY_NOTICES.md) for the distinction between adapted guidance, research sources and original BGM work.
+MIT licensed. Useful concepts in Humanize It and AI Check were adapted from the Humanize and AI-Check packages credited to Harshaneel Gokhale. Their complete MIT notices are retained in those packages. See [third-party notices](THIRD_PARTY_NOTICES.md) for the distinction between adapted guidance, research sources and original BGM work.

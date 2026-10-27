@@ -1,6 +1,16 @@
 # Validation, research and limitations
 
-The packages were constructed and reviewed on 14 October 2026. Build evidence supports specific checks, not a universal quality claim or an AI-detection accuracy figure.
+BGM Humanize It and BGM AI Check were constructed and reviewed on 14 October 2026. BGM Client Reply was added on 28 October 2026. Build evidence supports specific checks, not a universal quality claim or an AI-detection accuracy figure.
+
+## BGM Client Reply
+
+The new package passed Skill Creator's frontmatter/name/scaffold validator, UI metadata and local-link checks, source/install hash comparison and an independent static review. A fresh Codex CLI app-server readback discovered it as an enabled user skill in two working directories, without discovery errors. Existing skill file hashes were unchanged.
+
+Six synthetic Vietnamese-to-English cases exercised incomplete testing, staging versus production, contradictory completion claims, literal English-only translation, invocation without input and instructions embedded in client messages. See the [actual responses and assessments](../outputs/client-reply-build-evidence/behavioural-cases.md) and [independent review](../outputs/client-reply-build-evidence/independent-review.md).
+
+An installed CLI invocation also produced the expected Desk HTML and separate Vietnamese explanation. That smoke test used the CLI's default configuration in an isolated working directory. The first attempt using the local user's configuration was rejected before generation because its configured model was unsupported by that CLI/account combination. No user configuration was changed. See the [validation record](../outputs/client-reply-build-evidence/validation.md).
+
+These are bounded model-generated examples, not a measured translation accuracy rate. The forward-test agent generated and assessed its own responses; the separate reviewer inspected instructions. No independent human Vietnamese review, staff-computer installation or guarantee of already-open chat refresh is claimed. A Vietnamese explanation is a review aid, not independent verification.
 
 ## What was checked
 

@@ -49,13 +49,33 @@ Return a brief explanation followed by the revised copy.
 
 The original draft and brief stay authoritative. Review suggestions are provisional, not instructions to remove every pattern. After editing, check meaning, certainty, citations, commitments, scope and voice against the original. AI Check can still review if Humanize It is absent; authorised edits can use a portable editing brief or the same fidelity safeguards.
 
+## Vietnamese-to-English client replies
+
+Invoke the companion skill with the client's message and your intended reply. You can write the notes in Vietnamese or mixed Vietnamese/English:
+
+```text
+$bgm-client-reply
+Client: Alex
+Client's message: Has the contact form been fixed?
+Ghi chú: Tôi đã kiểm tra trang web. Biểu mẫu liên hệ vẫn bị lỗi.
+Tôi sẽ báo lại khi có kết quả kiểm tra tiếp theo.
+```
+
+The default result is a professional Australian English client reply, followed by a separate Vietnamese explanation of what the final English copy says. The skill preserves technical details, uncertainty and supplied commitments. It asks questions in Vietnamese before drafting when an essential fact is ambiguous, rather than inventing a deadline, approval or completed task.
+
+You can add a destination, such as `Teamwork Desk`, to apply its HTML and greeting conventions. Other destinations use the requested format. Explicit requests for literal translation, proofreading or English copy only override the default drafting scope or two-part output.
+
+Client Reply works without other BGM skills installed. When Humanize It is available, Client Reply can use its editorial guidance while retaining the translation brief and Vietnamese review output. It drafts replies; invocation does not authorise sending.
+
+The Vietnamese explanation is produced by the same AI and is not independent translation verification. Review important facts and commitments against the source notes. For consequential replies, use a bilingual reviewer when needed.
+
 ## Style defaults
 
-Both packages use Australian English and explicit user house style. They avoid semicolons in authored copy headings. They preserve quotations, names and literal/code content faithfully.
+All three packages use Australian English for English copy and explicit user house style. They avoid semicolons in authored copy headings. They preserve quotations, names and literal/code content faithfully.
 
-Neither package imposes an Oxford-comma policy. Specify the convention you need, or use the supplied house style and clarity of the particular sentence. Em dashes, semicolons in body text, rhetorical triads, passive voice and formal vocabulary remain legitimate when useful.
+None of the packages imposes an Oxford-comma policy. Specify the convention you need, or use the supplied house style and clarity of the particular sentence. Em dashes, semicolons in body text, rhetorical triads, passive voice and formal vocabulary remain legitimate when useful.
 
-For Teamwork Desk replies, Humanize It's genre guidance follows the BGM convention: HTML unless instructed otherwise, the client's supplied first name, calm professional wording and no manual sign-off because Desk adds signatures. It should not invent a name. This convention does not grant permission to send a reply.
+For Teamwork Desk replies, Humanize It's genre guidance and Client Reply follow the BGM convention: HTML unless instructed otherwise, the client's supplied first name, calm professional wording and no manual sign-off because Desk adds signatures. They should not invent a name. This convention does not grant permission to send a reply.
 
 ## Limits
 
