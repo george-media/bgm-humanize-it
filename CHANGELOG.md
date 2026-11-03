@@ -2,6 +2,10 @@
 
 Changes are grouped by date. There is no numbered release series yet; pin a repository commit when you need a reproducible installation.
 
+## 2026-11-03
+
+- Clarified Client Reply's default omission of closing phrases, agent names and signature placeholders because Teamwork adds its own sign-off. Existing draft signatures are removed, with a final check of the client copy. Literal translation and expressly requested closings retain their requested scope.
+
 ## 2026-10-28
 
 - Added BGM Client Reply for Vietnamese or mixed Vietnamese/English staff notes, professional Australian English client replies and a separate Vietnamese explanation of the final English copy.
