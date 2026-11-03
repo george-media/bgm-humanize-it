@@ -27,11 +27,13 @@ This package works independently. If `$bgm-humanize-it` is available and substan
 
 ## Match the destination
 
-For Teamwork Desk customer replies, use HTML unless instructed otherwise. Address the client by their supplied first name, without inventing one, and omit manual sign-offs because Desk adds signatures. Keep the Vietnamese explanation outside the client HTML. For other destinations, default to plain text and honour requested greetings, sign-offs and formatting. Do not infer that every email needs Desk formatting.
+For client-reply drafting, omit closing salutations and agent signatures by default, even when Teamwork is not mentioned in the current request. Teamwork automatically appends "Kind regards." and the agent's full name on submission. End the draft after the substantive message: do not add "Kind regards", "Best regards", "Regards", an agent name, job title, signature block or signature placeholder. Remove these from supplied drafts instead of translating or copying them into the finished reply. This concerns the sender's closing, not the client's greeting, names in the message body or quoted source material retained for another purpose. Preserve explicit literal-translation scope; include a manual closing only when the user explicitly requests one.
+
+For Teamwork Desk customer replies, use HTML unless instructed otherwise. Address the client by their supplied first name, without inventing one. Keep the Vietnamese explanation outside the client HTML. For other destinations, default to plain text and honour requested greetings and formatting. Do not infer that every email needs Desk formatting.
 
 ## Check and deliver
 
-Compare the final English reply directly with the original notes and client context for factual fidelity, who did what, timing, uncertainty, commitments and unanswered questions. Then check the English for clarity and appropriate tone. Do not use a Vietnamese back-translation as the sole fidelity check or claim that model agreement proves translation accuracy.
+Compare the final English reply directly with the original notes and client context for factual fidelity, who did what, timing, uncertainty, commitments and unanswered questions. Then check the English for clarity and appropriate tone. Check the end of the actual client copy and remove any unrequested closing salutation, agent name or signature placeholder. Do not use a Vietnamese back-translation as the sole fidelity check or claim that model agreement proves translation accuracy.
 
 Unless the user requests otherwise, return two clearly separated parts:
 

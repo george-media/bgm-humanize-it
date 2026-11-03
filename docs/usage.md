@@ -65,6 +65,8 @@ The default result is a professional Australian English client reply, followed b
 
 You can add a destination, such as `Teamwork Desk`, to apply its HTML and greeting conventions. Other destinations use the requested format. Explicit requests for literal translation, proofreading or English copy only override the default drafting scope or two-part output.
 
+Client Reply omits closing phrases such as “Kind regards”, agent names and signature placeholders by default, even if Teamwork is not repeated in the request. Teamwork appends its own closing and agent name on submission. Sign-offs in supplied drafts are removed from drafted replies; explicit literal translations and expressly requested closings retain their requested scope.
+
 Client Reply works without other BGM skills installed. When Humanize It is available, Client Reply can use its editorial guidance while retaining the translation brief and Vietnamese review output. It drafts replies; invocation does not authorise sending.
 
 The Vietnamese explanation is produced by the same AI and is not independent translation verification. Review important facts and commitments against the source notes. For consequential replies, use a bilingual reviewer when needed.
