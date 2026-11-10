@@ -30,14 +30,30 @@ Prefer familiar words when equally precise. Keep established disciplinary terms,
 
 Simplify avoidable verbal wrappers and nominalisations when the subject and meaning survive. Replace empty significance with a supported concrete assertion. Enthusiasm is legitimate in promotional writing if it serves the brief and evidence. A vague attribution needs a real source or transparent qualification; do not invent an expert or quietly delete a central disputed assertion.
 
+For a new explanatory draft without voice samples, choose a consistent reader-appropriate voice rather than defaulting to an impersonal textbook survey, unless the brief calls for one. Build a through-line suited to the brief. For example, connect what the reader notices with its mechanism and useful consequences. Select and connect the useful material rather than treating every related subtopic as an equal item. An opening need not preview a list of things the piece will explain. Introduce technical detail at the point where it answers a live question in the argument. Use ordinary spoken phrasing, contractions and direct address when the register supports them, without turning them into quotas. Let straightforward implications stand without repeatedly announcing that they are important, obvious, straightforward or the key takeaway. Read a substantial passage for speakable cadence, not just grammatical correctness. This is an editorial approach, not a measured detector mechanism.
+
 Give paragraphs a clear purpose appropriate to the format. A narrative may begin with scene or context; an update may lead with an action. Neither opening is compulsory. Use active voice to clarify responsibility and passive voice for useful emphasis or an unknown actor. Keep logical connections, necessary list items, headings, ordered instructions and reader-useful conclusions. Repetition, rhetorical questions, anaphora, triads, chiasmus, mirrored clauses, reveal pivots and aphoristic endings can serve meaning or voice. Assess their purpose and frequency, not their mere presence.
 
 Remove irrelevant acknowledgements, flattery and canned sign-offs from deliverable copy while retaining suitable courtesy, useful empathy and required wording. Short async writing need not be disordered, lowercase or slang-filled. Personal address and interruptions need a communicative reason, not an authenticity quota.
+
+## Worked example of paragraph movement
+
+This is an authored explanatory example, not a voice sample to imitate, a factual source for another topic or a detector recipe. Its useful feature is how the ideas move. Do not copy its distinctive phrasing or impose its sentence counts.
+
+A flat draft might give separate, similarly developed paragraphs to water vapour, the cold surface, condensation and the result, each ending by restating its opening. A more purposeful version can answer briefly, develop the mechanism together and end on a new consequence:
+
+> The water outside a cold glass came from the air.
+>
+> Air contains water vapour. Close to the glass, the air cools; if the surface is cold enough, some vapour condenses into droplets. Nothing has passed through the glass. The same process happens on a bathroom mirror, although there the warm, moist air meets a surface that is cooler by comparison. The relevant difference is between the surface temperature and the air's dew point, not whether an object feels cold to your hand.
+>
+> Wiping the glass dry removes the droplets. It does not remove the conditions that made them form.
+
+The first paragraph can stop because it has answered the immediate question. The middle keeps related reasoning together instead of expanding each fact into a miniature lesson. The last gives the reader a consequence, rather than a second general summary. Other briefs need other shapes, including sustained formal paragraphs. In a new draft, look for the actual changes of thought that deserve a break; avoid filling out a brief thought or cutting a developing one merely to maintain a regular block size.
 
 ## Stop and reread
 
 Sentence-length ranges, standard-deviation targets, mid-band caps, fragment intervals, dash/colon limits, fixed paragraph sizes and novelty counts are not universal requirements. Follow a feasible user-specified measurable preference as house style, without calling it authorship science. If it conflicts with factual fidelity or literal wording, resolve the conflict rather than silently breaking either.
 
-Do not manufacture deliberate misfires, mistakes, poor links, off-topic additions, fake self-corrections or forced unresolved endings. Do not force lowercase, arbitrary asymmetry or disfluency quotas as authenticity tests. No residual-pattern gate overrides meaning, genre or voice. Avoid repeated paraphrase and detector-driven variant selection. Similar self-rewrites do not establish an individual text's authorship or probability status. Do not use fixed generation settings, homoglyph changes or watermark tricks to evade detection.
+Do not manufacture deliberate misfires, mistakes, poor links, off-topic additions, fake self-corrections or forced unresolved endings. Do not force lowercase, arbitrary asymmetry or disfluency quotas as authenticity tests. No residual-pattern gate overrides meaning, genre or voice. In ordinary editing, avoid repeated paraphrase and detector-driven variant selection. For explicitly requested benchmarking, use the bounded procedure in [detector benchmarking](detector-benchmarking.md); retain failed outputs as evidence. Similar self-rewrites do not establish an individual text's authorship or probability status. Do not use fixed generation settings, homoglyph changes or watermark tricks to evade detection.
 
 After substantial shortening, check what was lost, including explanation, empathy and humour. A neutral shortening note is optional when useful or requested; length alone cannot establish puffery. Reread actual final copy for fidelity and citation alignment, comprehension and structure, then voice and house style. Recheck changed passages and every legitimate exception. Stop once the requested improvement is achieved.

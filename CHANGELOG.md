@@ -2,6 +2,10 @@
 
 Changes are grouped by date. There is no numbered release series yet; pin a repository commit when you need a reproducible installation.
 
+## 2026-11-10
+
+- Restored BGM Humanize It to the saved pre-update baseline after comparison testing found no demonstrated benefit from the new examples. The trial examples are excluded from the installable package.
+
 ## 2026-11-03
 
 - Clarified Client Reply's default omission of closing phrases, agent names and signature placeholders because Teamwork adds its own sign-off. Existing draft signatures are removed, with a final check of the client copy. Literal translation and expressly requested closings retain their requested scope.
