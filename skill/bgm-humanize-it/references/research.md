@@ -1,6 +1,6 @@
 # Research and provenance
 
-Read for requested research, an explanation of rationale or package maintenance. Ordinary editing does not require this file. This package has not been validated as an authorship classifier or a detector-evasion method.
+Read for requested research, an explanation of rationale or package maintenance. Ordinary editing does not require this file. This package has not been validated as an authorship classifier or as reliably passing commercial detectors. Explicitly requested [detector benchmarking](detector-benchmarking.md) measures observed outputs separately from editorial quality.
 
 ## Evidence categories
 
