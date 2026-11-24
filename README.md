@@ -1,6 +1,6 @@
 # BGM writing skills
 
-Three complementary Codex skills from By George Media for clear writing, bilingual client replies and evidence-led editorial review.
+Three complementary Codex skills from George Media for clear writing, bilingual client replies and evidence-led editorial review.
 
 **BGM Humanize It** drafts and edits prose while preserving facts, meaning and authorial voice. **BGM AI Check** reviews prose for generic, formulaic or audience-mismatched writing, using quoted evidence and proportionate suggestions. **BGM Client Reply** turns Vietnamese or mixed Vietnamese/English notes into professional Australian English client replies, with a separate Vietnamese explanation for the staff member.
 
